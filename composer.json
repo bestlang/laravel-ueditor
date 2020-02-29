@@ -1,16 +1,16 @@
 {
-    "name": "overtrue/laravel-ueditor",
+    "name": "bestlang/laravel-ueditor",
     "description": "UEditor integration for Laravel.",
     "license": "MIT",
     "authors": [
         {
-            "name": "overtrue",
-            "email": "anzhengchao@gmail.com"
+            "name": "bestlang",
+            "email": "295322133@qq.com"
         }
     ],
     "autoload": {
         "psr-4":{
-            "Overtrue\\LaravelUEditor\\":"src/"
+            "Bestlang\\LaravelUEditor\\":"src/"
         }
     },
     "suggest": {
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Overtrue\\LaravelUEditor\\UEditorServiceProvider"
+                "Bestlang\\LaravelUEditor\\UEditorServiceProvider"
             ]
         }
     }
