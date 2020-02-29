@@ -2,6 +2,13 @@
 
 UEditor integration for Laravel 5.
 
+##### Fork自 https://github.com/overtrue/laravel-ueditor.git
+> 删掉没必要的前端代码, 只保留接口相关的代码,前端已经打包进前端vue代码
+> 具体修改的地方:
+①删除掉`assets`与`views`目录. 
+②修改了`UEditorController`->`serve`中`action`为`config`处的代码.
+
+
 # 使用
 
 > 视频教程：https://www.laravist.com/series/awesome-laravel-packages/episodes/7
