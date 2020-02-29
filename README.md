@@ -9,7 +9,7 @@ UEditor integration for Laravel 5.
 ## 安装
 
 ```shell
-$ composer require "overtrue/laravel-ueditor:~1.0"
+$ composer require "bestlang/laravel-ueditor:~1.0"
 ```
 
 ## 配置
