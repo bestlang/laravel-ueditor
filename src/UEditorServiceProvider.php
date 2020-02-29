@@ -27,19 +27,19 @@ class UEditorServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
-        $this->loadViewsFrom(__DIR__.'/views', 'ueditor');
+//        $this->loadViewsFrom(__DIR__.'/views', 'ueditor');
         $this->loadTranslationsFrom(__DIR__.'/translations', 'ueditor');
 
         $this->publishes([
             __DIR__.'/config/ueditor.php' => config_path('ueditor.php'),
         ], 'config');
 
-        $this->publishes([
-            __DIR__.'/assets/ueditor' => public_path('vendor/ueditor'),
-        ], 'assets');
+//        $this->publishes([
+//            __DIR__.'/assets/ueditor' => public_path('vendor/ueditor'),
+//        ], 'assets');
 
         $this->publishes([
-            __DIR__.'/views' => base_path('resources/views/vendor/ueditor'),
+//            __DIR__.'/views' => base_path('resources/views/vendor/ueditor'),
             __DIR__.'/translations' => base_path('resources/lang/vendor/ueditor'),
         ], 'resources');
 
