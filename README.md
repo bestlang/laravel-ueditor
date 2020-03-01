@@ -16,7 +16,7 @@ UEditor integration for Laravel 5.
 ## 安装
 
 ```shell
-$ composer require "bestlang/laravel-ueditor:~1.0"
+$ composer require "bestlang/laravel-ueditor:dev-master"
 ```
 
 ## 配置
@@ -27,33 +27,10 @@ $ composer require "bestlang/laravel-ueditor:~1.0"
     Overtrue\LaravelUEditor\UEditorServiceProvider::class,
     ```
 
-2. 发布配置文件与资源
+2. 发布配置文件
 
     ```php
     $ php artisan vendor:publish --provider='Overtrue\LaravelUEditor\UEditorServiceProvider'
-    ```
-
-3. 模板引入编辑器
-
-    这行的作用是引入编辑器需要的 css,js 等文件，所以你不需要再手动去引入它们。
-
-    ```php
-    @include('vendor.ueditor.assets')
-    ```
-
-4. 编辑器的初始化
-
-    ```html
-    <!-- 实例化编辑器 -->
-    <script type="text/javascript">
-        var ue = UE.getEditor('container');
-        ue.ready(function() {
-            ue.execCommand('serverparam', '_token', '{{ csrf_token() }}'); // 设置 CSRF token.
-        });
-    </script>
-
-    <!-- 编辑器容器 -->
-    <script id="container" name="content" type="text/plain"></script>
     ```
 
 # 说明
