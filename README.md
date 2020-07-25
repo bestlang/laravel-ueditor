@@ -24,13 +24,13 @@ $ composer require "bestlang/laravel-ueditor:dev-master"
 1. 添加下面一行到 `config/app.php` 中 `providers` 部分：
 
     ```php
-    Overtrue\LaravelUEditor\UEditorServiceProvider::class,
+    Bestlang\LaravelUEditor\UEditorServiceProvider::class,
     ```
 
 2. 发布配置文件
 
     ```php
-    $ php artisan vendor:publish --provider='Overtrue\LaravelUEditor\UEditorServiceProvider'
+    $ php artisan vendor:publish --provider='Bestlang\LaravelUEditor\UEditorServiceProvider'
     ```
 
 # 说明
@@ -70,7 +70,7 @@ $ composer require "bestlang/laravel-ueditor:dev-master"
 
 ### 上传中事件
 
-> Overtrue\LaravelUEditor\Events\Uploading
+> Bestlang\LaravelUEditor\Events\Uploading
 
 在保存文件之前，你可以拿到一些信息：
 
@@ -82,7 +82,7 @@ $ composer require "bestlang/laravel-ueditor:dev-master"
 
 ### 上传完成事件
 
-> Overtrue\LaravelUEditor\Events\Uploaded
+> Bestlang\LaravelUEditor\Events\Uploaded
 
 它有两个属性：
 

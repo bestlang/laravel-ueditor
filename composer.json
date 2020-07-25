@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4":{
-            "Overtrue\\LaravelUEditor\\":"src/"
+            "Bestlang\\LaravelUEditor\\":"src/"
         }
     },
     "suggest": {
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Overtrue\\LaravelUEditor\\UEditorServiceProvider"
+                "Bestlang\\LaravelUEditor\\UEditorServiceProvider"
             ]
         }
     }

@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\LaravelUEditor;
+namespace Bestlang\LaravelUEditor;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use Overtrue\LaravelUEditor\Events\Uploaded;
-use Overtrue\LaravelUEditor\Events\Uploading;
-use Overtrue\LaravelUEditor\Events\Catched;
+use Bestlang\LaravelUEditor\Events\Uploaded;
+use Bestlang\LaravelUEditor\Events\Uploading;
+use Bestlang\LaravelUEditor\Events\Catched;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 /**
